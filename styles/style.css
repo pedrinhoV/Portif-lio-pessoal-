@@ -177,8 +177,6 @@ body{
     padding: 0.25%;
     border: 3px solid var(--cor-terciaria);
     border-radius: 10px;
-    min-width: 29%;
-    max-width: 31%;
 }
 .rodape{
     display: flex;
