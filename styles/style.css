@@ -227,7 +227,7 @@ body{
         min-width: 7%;
     }
     .principal{
-        flex-direction: column;
+        flex-direction: column-reverse;
         align-items: center;
         justify-content: center;
     }
@@ -241,10 +241,14 @@ body{
         margin: 0 0 0 0;
     }
     .principal__imagem{
-        margin: 0 0 3% 0;
+        margin: 10% 0 0 0;
+        width: 35%;
     }
     .principal__imagens__projetos{
         display: flex;
         flex-direction: column;
+    }
+    .principal__imagens__projetos__imagem{
+        width: 70%;
     }
 }
